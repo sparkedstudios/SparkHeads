@@ -1,0 +1,9 @@
+#                                                            Developed by Acemix
+#                                                        (Sparked Studios @ (C) 2025)
+
+name: SparkHeads
+version: '${project.version}'
+author: 'Acemix'
+
+api-version: '1.20'
+main: ${mainClass}
