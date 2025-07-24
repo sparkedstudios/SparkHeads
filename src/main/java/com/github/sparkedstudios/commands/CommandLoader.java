@@ -15,6 +15,7 @@ public class CommandLoader {
         registerSubCommand(new DeleteSubCommand());
         registerSubCommand(new MoveHereSubCommand());
         registerSubCommand(new ReloadSubCommand());
+        registerSubCommand(new GiveSubCommand());
     }
 
     public void registerSubCommand(SubCommand subCommand) {
