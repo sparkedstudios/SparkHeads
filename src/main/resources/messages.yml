@@ -1,0 +1,18 @@
+version: '1.0'
+
+usage:
+  - "&r"
+  - "<gray><bold>Usage:</bold></gray> <white>/command [args]</white>"
+  - "&r"
+
+no-console: "&#ff5555<italic>This command cannot be run from the console!</italic>"
+head-exists: "&eThe head &f%id% &ealready exists."
+head-created: "<gradient:#00ff00:#007f00><bold>Successfully created the head</bold></gradient> <white>%id%</white>."
+head-deleted: "&#ff0000Deleted the head &f%id%&r&#ff0000."
+head-moved: "<aqua><underlined>Moved head</underlined></aqua> <white>%id%</white> <aqua>to your location.</aqua>"
+head-not-found: "&4No head found with the name &f%id%&4."
+reloaded: "<green><obfuscated>+</obfuscated> <bold>Configuration reloaded successfully!</bold> <obfuscated>+</obfuscated></green>"
+
+no-permission: "&cYou dont have permission execute this command"
+sub-command-not-found: "&cUnknown SubCommand"
+give-head: "&cGive head successfully!"
