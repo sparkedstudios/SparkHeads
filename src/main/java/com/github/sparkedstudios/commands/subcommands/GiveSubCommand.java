@@ -26,7 +26,7 @@ public class GiveSubCommand implements SubCommand {
 
     @Override
     public String getPermission() {
-        return "sparkheads.give";
+        return "sparkheads.admin";
     }
 
     @Override
